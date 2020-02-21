@@ -1,77 +1,35 @@
-# Intermediate-Computer-Programming
-Hi gus kofi here
-i like food drinks and games
+# Project Title
 
-And I'm Ernesto, at least people call me that.
+Galamsey Project
 
+## Getting Started
 
+These are the list of project of the classes you have to compile one after the other.
 
-
-
-//THE CODE FOR MONITORING CLASS
-package classes;
-
-import java.util.List;
-import java.util.ArrayList;
-
-public class Monitoring {
-	
-	public static List<Observatory> observeList = new ArrayList<>();
-	
-	public Monitoring() {}
-	
-	public void showObservatories() {
-		for(Observatory i: observeList) {
-			System.out.print(i);
-		}
-	}
-	
-	public int getHighestValue() {
-		int max = 0;
-		for(Observatory i: observeList) {
-			// getColourValue is a method in the Observatory class
-			if(i.getHighestColourValue() > max) {
-				max = i.getHighestColourValue();
-				
-			}
-				
-		}
-		
-		return max;
-	
-	}
-	public List <Galamsey> valueHigherThan(int value){
-		List <Galamsey> allGalamValues = new ArrayList();
-		//   Observatory object.
-		for (Observatory i: observeList) {
-		
-			// Galamsey object.
-			for (Galamsey j: i.getAllEvents()) {
-				allGalamValues.add(j);
-			}
-		}
-		return allGalamValues;
-		
-	}
-	
-	public float largestAverage() {
-		float max = 0;
-		
-		for (Observation i: observeList) {
-			// AverageColourValue is a methid in the Observatory
-		//class
-			if(i.getAverageColourValue()>max) {
-				max = i.getAverageColourValue();
-			// getObservatoryName is
-			// a method in the Observatory class.
-				name=i.getObservatoryName;
-			}
-		}
-	}
-} 
+### Prerequisites
+For our code to be run, two Plug-ins will be needed. First, the JDBC, the plug-in needed is called MySql connecctor, a .jar file.
+The second plug-in is called a Swing Designer. It is the eclipse add-in, that was used to create the Graphics User Interface of our program.
+After getting these adin the program should run fine.
 
 
+### Installing
+Before compiling the progrma please run the;
+Galamsey class, Observatory class, Monitoring  class, Monitoring IO than allthe GUi classes.
 
 
+## Versioning
+Version 1  Galamsey Project.
 
+## Authors
+
+Asante Akoto Papa Kofi
+Ernest Ampomah Benefo 
+Audrey Obuobisa
+Kofi Asafo Boakye
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
