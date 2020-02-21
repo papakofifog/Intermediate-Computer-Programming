@@ -23,13 +23,8 @@ Version 1  Galamsey Project.
 ## Authors
 
 Asante Akoto Papa Kofi
-Ernest Ampomah Benefo 
-Audrey Obuobisa
-Kofi Asafo Boakye
+ Ernest Ampomah Benefo 
+ Audrey Obuobisa
+ Kofi Asafo Boakye
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
